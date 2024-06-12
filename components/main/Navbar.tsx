@@ -19,7 +19,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebDev Thomas
+            Thomas Talukdar
           </span>
         </a>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-5 ml-28">
           {Socials.map((social) => (
             <Image
               src={social.src}
